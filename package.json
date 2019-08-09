@@ -1,0 +1,15 @@
+{
+  "name": "graphqlSample",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@graphql-modules/core": "^0.7.9",
+    "graphql-toolkit": "^0.5.4",
+    "graphql-yoga": "^1.18.1",
+    "nodemon": "^1.19.1"
+  }
+}
