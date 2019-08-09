@@ -1,0 +1,9 @@
+type project {
+  id: ID!
+  cliente : Int!
+  users : [User]
+}
+
+type Query {
+  getProjects : [project]
+}
